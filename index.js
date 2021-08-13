@@ -267,11 +267,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `Mi loco @${num.split('@')[0]}\nTodo bien NEFASTO!!!! Bienvenido a *${mdata.subject}* el mejor grupo una locura 👉😎👈\n\nUn gusto conocerte hijo de la maraca 😀\n\nOjito sigue las reglas del grupo si no, pa fuera mi loco los admins te eliminan 🧐\n\nPara utilizar el bot registrate con el comando ${prefix}daftar y tu nombre\n\nPara ver los demas comandos utiliza ${prefix}help\n\nOjito con el spam 🧐\n\nby shanduy`
+				teks = `Mi loco @${num.split('@')[0]}\nTodo bien NEFASTO!!!! Bienvenido a *${mdata.subject}* el mejor grupo una locura 👉😎👈\n\nUn gusto conocerte hijo de la maraca 😀\n\nOjito sigue las reglas del grupo si no, pa fuera mi loco los admins te eliminan 🧐\n\nPara utilizar a survibot registrate con el comando ${prefix}daftar y tu nombre\n\nPara ver los demas comandos utiliza ${prefix}help\n\nOjito con el spam 🧐\n\nby survivor`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `NOOOO se nos fue un NEFASTO 😎 @${num.split('@')[0]}👋\n\nQue dios lo bendiga 😎`
+				teks = `NOOOO se nos fue un NEFASTO 😎 @${num.split('@')[0]}👋\n\nQue satan lo bendiga 😎`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -309,7 +309,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Calmao pa estoy procesando😎\n\n❗Por favor no hacer spam👏❗\n\nву ѕнαη∂υу',
+				wait: 'Calmao pa estoy procesando😎\n\n❗Por favor no hacer spam👏❗\n\nву ѕͩυͨrѵᎥѵor',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
@@ -325,17 +325,17 @@ async function starts() {
 					ownerB: '[❗] Este comando solo lo usa ShanBot',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador',
-                                        pegatina: 'Calma crack estoy haciendo tu sticker 👏\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\nву ѕнαη∂υу',
-					attp: 'Calma crack estoy haciendo tu texto a sticker 👏\n\n*Esto puede demorar unos minutos*\n\nву ѕнαη∂υу',
-					imgs: 'Euu flaco 🥴\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nby shanduy',
-					mpcancion: 'Calmaoooo estoy procesando 😎\n\n*Convirtiendo de MP4 a MP3 🔄*\n\nву ѕнαη∂υу',
-					mpa: 'Euu flaco 🥴\n\n*Estoy decargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
-                                        xn: 'Calmao pa 😎\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
-					mpv: 'Calma ✋🥸🤚\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
-					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\nву ѕнαη∂υу',
-					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play no funciona utiliza el comando *play2*\n\nву ѕнαη∂υу',
-					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play2 no funciona utiliza el comando *play*\n\nву ѕнαη∂υу',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar shanduy`,
+                                        pegatina: 'Calma crack estoy haciendo tu sticker 👏\n\n*Recuerda los stickersgif son de 6 segundos❗*\n\nву ѕͩυͨrѵᎥѵor',
+					attp: 'Calma crack estoy haciendo tu texto a sticker 👏\n\n*Esto puede demorar unos minutos*\n\nву ѕͩυͨrѵᎥѵor',
+					imgs: 'Euu flaco 🥴\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nby ѕͩυͨrѵᎥѵor',
+					mpcancion: 'Calmaoooo estoy procesando 😎\n\n*Convirtiendo de MP4 a MP3 🔄*\n\nву ѕͩυͨrѵᎥѵor',
+					mpa: 'Euu flaco 🥴\n\n*Estoy decargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\nву ѕͩυͨrѵᎥѵor',
+                                        xn: 'Calmao pa 😎\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕͩυͨrѵᎥѵor',
+					mpv: 'Calma ✋🥸🤚\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nву ѕͩυͨrѵᎥѵor',
+					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\nву ѕͩυͨrѵᎥѵor',
+					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play no funciona utiliza el comando *play2*\n\nву ѕͩυͨrѵᎥѵor',
+					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube❗*\n\n*Si el comando *play2 no funciona utiliza el comando *play*\n\nву ѕͩυͨrѵᎥѵor',
+					daftarB: `「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar ѕυrѵᎥѵor`,
 				}
 			}
     			const apakah = ['Si','No']
@@ -696,12 +696,12 @@ break
 	    case 'owner':
                 case 'creator':
                 client.sendMessage(from, {displayname: "Shan", vcard: vcard}, MessageType.contact, { quoted: mek})
-		client.sendMessage(from, 'Arriba está el número del creador del bot <ѕнαηвσт ву ѕнαη∂υу>\n\nNO SOY UN BOT LPM 🥸\n\nAhi puedes resolver tus preguntas y errores :)\n\nEste no es el numero del propietario del bot que estas usando, si no del creador de la base de datos del bot❗\n\nву ѕнαη∂υу',MessageType.text, { quoted: mek} )
+		client.sendMessage(from, 'Arriba está el número del creador de survibot <sυrѵıвσт ву ѕͩυͨrѵᎥѵor>\n\nNO SOY UN BOT LPM 🥸\n\nAhi puedes resolver tus preguntas y errores :)\n\nEste no es el numero del propietario de survibot que estas usando, si no del creador de la base de datos de survibot❗\n\nву ѕͩυͨrѵᎥѵor',MessageType.text, { quoted: mek} )
                 const none = fs.readFileSync('./mp3/shan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
 	case 'kickmenu':
-                client.sendMessage(from, '*Comando De Banear 📤*\n\nPara usar esta funcion el bot necesita admin\n\nComando: *kick + la personas que deseas eliminar\n\nEjemplo: *kick @xxxxxx\n\n*⚠ADVERTENCIA⚠*\nNUNCA COLOCAR MAS DE DOS PERSONAS PARA QUE LAS ELIMINE\n\nEjemplo: *kick @xxxxxx @xxxxx\n\nYa que el numero del bot se ira a soporte\n\nQuedas advertido :)\n\nву ѕнαη∂υу',MessageType.text, { quoted: mek} )
+                client.sendMessage(from, '*Comando De Banear 📤*\n\nPara usar esta funcion survibot necesita admin\n\nComando: *kick + la personas que deseas eliminar\n\nEjemplo: *kick @xxxxxx\n\n*⚠ADVERTENCIA⚠*\nNUNCA COLOCAR MAS DE DOS PERSONAS PARA QUE LAS ELIMINE\n\nEjemplo: *kick @xxxxxx @xxxxx\n\nYa que el numero del bot te mandara a soporte\n\nQuedas advertido :)\n\nву ѕͩυͨrѵᎥѵor',MessageType.text, { quoted: mek} )
                break
 	case 'hidetag':
                 client.updatePresence(from, Presence.composing) 
@@ -776,7 +776,7 @@ break
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 by shanduy 〙', members_id, true)
+					mentions('╔══✪〘 MENCIONANDO 〙✪══\n╠➥'+teks+'╚═〘 by ѕͩυͨrѵᎥѵor 〙', members_id, true)
 					break
                                 case 'send':
 					var pc = body.slice(6)
@@ -1130,7 +1130,7 @@ break
 						fs.unlinkSync(media)
 						if (err) return reply('❌ No se pudo convertir el sticker en imágenes')
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\nву ѕнαη∂υу'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\nву ѕͩυͨrѵᎥѵor'})
 						fs.unlinkSync(ran)
 					})
 					break
