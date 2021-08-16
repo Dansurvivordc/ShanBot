@@ -1,13 +1,9 @@
 const menuadmin = (prefix, pushname) => {
  return `Hola aqui los comandos para admins
- _Para que el bot ejecute estos comandos obs es necesario dar admin al bot_
+ _Para que survibot ejecute estos comandos obs es necesario dar admin a survibot_
  
  ◪ *COMANDOS DE ADMIN*
  │
- ├─ ❏ ${prefix}opengc
- ├─ ❏ ${prefix}closegc
- ├─ ❏ ${prefix}promote
- ├─ ❏ ${prefix}demote
  ├─ ❏ ${prefix}tagall
  ├─ ❏ ${prefix}tagall2
  ├─ ❏ ${prefix}tagall3
