@@ -1,5 +1,5 @@
 const nsfwmenu = (prefix, pushname) => {
-    return `*Comandos para ver pornito 🔞*
+    return `*Comandos para ver noporcito 🔞*
 *NSFW ✅*
 
 - ${prefix}nsfwbobs
@@ -7,11 +7,11 @@ const nsfwmenu = (prefix, pushname) => {
 - ${prefix}nsfwahegao
 - ${prefix}nsfwfeets
 
-_El bot nesecita admin y tener activado los NSFW_\n _Digita_\n ${prefix}*nsfw 1*
+_Survibot nesecita admin y tener activado los NSFW_\n _Digita_\n ${prefix}*nsfw 1*
 
 Algunas funciones fueron eliminas por errores en el servidor de la India
 
-ву ѕнαη∂υу`
+ву ѕͩυͨrѵᎥѵor`
 
 }
 
